@@ -38,7 +38,7 @@ onMounted(() => {
     todos.value = JSON.parse(saved);
   }
 });
-// บันทึกทุกครั้งที่ todos เปลี่ยน
+// บันทึกทุกครั้งที่ todos เปลี่ยน 2
 watch(
   todos,
   (newValue) => {
